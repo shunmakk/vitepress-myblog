@@ -16,10 +16,10 @@ next: false
 
 <article v-for="post of posts" class="home-posts-article">
   <p>
-    <a :href="'/vitepress-myblog/' + post.url" class="home-posts-article-title">{{ post.frontmatter.title }}</a>
+    <a :href="'/vitepress-myblog' + post.url" class="home-posts-article-title">{{ post.frontmatter.title }}</a>
   </p>
   <p>
-    <a :href="'/vitepress-myblog/' + post.url" >続きを読む</a>
+    <a :href="'/vitepress-myblog' + post.url" >続きを読む</a>
   </p>
 </article>
 
