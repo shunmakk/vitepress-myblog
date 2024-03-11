@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "UniTech _Blog",
   description: "webエンジニアを目指す私立文系学生のブログ",
+  base: "/vitepress-myblog/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search:{
