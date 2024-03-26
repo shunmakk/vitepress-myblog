@@ -18,12 +18,22 @@ next: false
   <p>
     <a :href="'/vitepress-myblog' + post.url" class="home-posts-article-title">{{ post.frontmatter.title }}</a>
   </p>
+<div class="flex">
   <p>
     <a :href="'/vitepress-myblog' + post.url" >続きを読む</a>
   </p>
+    <p class="home-posts-date">最新更新日:{{ post.frontmatter.date }}</p>
+  </div>
 </article>
 
 <style>
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.home-posts-date{
+  font-size: 12px;
+}
 .home-posts-article {
   border-top: 1px solid var(--vp-c-divider);
   justify-content: space-between;

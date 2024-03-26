@@ -10,15 +10,15 @@ export default defineConfig({
     search:{
       provider: "local"
    },
-    nav: [
-      { text: 'Home', link: '/' },
-      {text: 'My portfolio', 
-      items:[{
-        text: 'ハッカソン',
-        link: 'https://deft-pony-a93fbb.netlify.app/'
-      },],
-    }
-    ],
+    // nav: [
+    //   { text: 'Home', link: '/' },
+    //   {text: 'My portfolio', 
+    //   items:[{
+    //     text: 'ハッカソン',
+    //     link: 'https://deft-pony-a93fbb.netlify.app/'
+    //   },],
+    // }
+    // ],
 
     sidebar: [
       {
